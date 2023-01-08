@@ -1,5 +1,6 @@
 
 
+
 ﻿![alt text](https://github.com/RuanPS01/valoro-store/blob/main/Red_LogoProject_ValoroStore.png?raw=true)
 # Bem vindo ao projeto Valoro Store!
 
@@ -75,3 +76,21 @@ Observação: Alguns recursos estavam no escopo do projeto como um todo, mas por
 
 Obs: O banco de dados que foi o utilizado é o MongoBD, no caso hospedado no Mongo Atlas, ou seja, ele ja está lá populado e pronto para ser usado pela aplicação.
 
+
+-
+
+### Informações técnicas
+Aqui estão algumas palavras chave das tecnologias que foram usadas:
+ - TypeScript
+ - Nest
+ - Vite
+ - Tailwind
+ - Mongoose
+ - Docker
+ - React Web
+ - Jwt
+
+Alguns recursos que estavam previstos para serem implementados no projeto mas não entraram para a atual versão:
+ - Jest
+ - Supertest
+ - Nodemailer
