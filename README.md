@@ -1,3 +1,4 @@
+
 ﻿![alt text](https://github.com/RuanPS01/valoro-store/blob/main/Red_LogoProject_ValoroStore.png?raw=true)
 # Bem vindo ao projeto Valoro Store!
 
@@ -33,6 +34,8 @@ Cada api possui sua documentação em Swagger e uma Collection do Postman para o
 
 # Fazendo o projeto inteiro funcionar
 
+## Método Usando Docker Compose
+
 Para podermos testar tudo junto você vai precisar dos seguintes requisitos:
 - **Docker** instalado e disponível
 - Ter o **docker-compose** configurado na sua máquina
@@ -43,8 +46,23 @@ Para podermos testar tudo junto você vai precisar dos seguintes requisitos:
 3º -  Digite o comando "**docker-compose up**" sem as aspas, e aperte Enter;
 4º - Abra o navegador no endereço [http://127.0.0.1:5173/](http://127.0.0.1:5173/)
 
+## Método individual por repositório
+Caso o Docker Compose não funcione, você pode optar por executar os projetos manualmente. Mas para isso temos os seguintes requisitos para sua máquina:
 
+     1º Deve conter o Node instalado;
+     2º Deve estar com o comando "npm" funcionando;
+     3º Deve ter instalado o "yarn"
+
+ 
+As orientações individuais de cada projeto está em seus respectivos repositórios, e para facilitar vou deixar aqui os links novamente deles:
+
+- Front-end: https://github.com/RuanPS01/valoro-store-web.git
+- Auth API: https://github.com/RuanPS01/valoro-store-authentication-api.git
+- Products API: https://github.com/RuanPS01/valoro-store-products-api.git 
+- 
 ## Prontinho!
 
 Explore a página e veja os recursos que foram implementados.
 Observação: Alguns recursos estavam no escopo do projeto como um todo, mas por delimitação de tempo, foram implementados os recursos principais.
+
+Obs: O banco de dados que foi o utilizado é o MongoBD, no caso hospedado no Mongo Atlas, ou seja, ele ja está lá populado e pronto para ser usado pela aplicação.
