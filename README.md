@@ -11,11 +11,8 @@ As implementações de cada divisão do projeto estão no seguintes repositório
 - Products API: https://github.com/RuanPS01/valoro-store-products-api.git 
 
 ### Front-end
-O visual da aplicação foi pensado e idealizado em cima de um *style-guide* e detalhado no ***Figma***. Segue abaixo o link e o IFrame do figma que foi feito para toda a idealização de UI/UX:
+O visual da aplicação foi pensado e idealizado em cima de um *style-guide* e detalhado no ***Figma***. Segue abaixo o link do figma que foi feito para toda a idealização de UI/UX:
 [Link para a pagina do Figma](https://www.figma.com/file/kLw9KCJI8WzHRpRXZKttRs/Valoro-Store?node-id=0:1&t=c0bLNwIa13UijQGC-1)
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FkLw9KCJI8WzHRpRXZKttRs%2FValoro-Store%3Fnode-id%3D0%253A1%26t%3Dc0bLNwIa13UijQGC-1" allowfullscreen></iframe>
-
-
 ## Esquemático de comunicação entre os micro-serviços:
 
 ![alt text](https://github.com/RuanPS01/valoro-store/blob/main/valoro-diagram-micro-services.png?raw=true)
