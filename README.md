@@ -66,6 +66,7 @@ As orientações individuais de cada projeto está em seus respectivos repositó
 
 ## Prontinho!
 
+Agora é só entrar nesse link http://localhost:5173 e usar.
 Explore a página e veja os recursos que foram implementados.
 Observação: Alguns recursos estavam no escopo do projeto como um todo, mas por delimitação de tempo, foram implementados os recursos principais.
 
