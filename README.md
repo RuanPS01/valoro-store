@@ -77,7 +77,7 @@ Observação: Alguns recursos estavam no escopo do projeto como um todo, mas por
 Obs: O banco de dados que foi o utilizado é o MongoBD, no caso hospedado no Mongo Atlas, ou seja, ele ja está lá populado e pronto para ser usado pela aplicação.
 
 
--
+___
 
 ### Informações técnicas
 Aqui estão algumas palavras chave das tecnologias que foram usadas:
