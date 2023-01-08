@@ -1,15 +1,15 @@
 version: '3'
 services:
-  web:
+  valoro-web:
     build: 
       context: ./web
       dockerfile: dockerfile
     tty: true
     stdin_open: true
-    working_dir: /usr/src/app
+    working_dir: /home/app/valoro-store-web
     ports:
       - 5173:5173
-    command: yarn vite
+    command: yarn dev
   auth-api:
     build: 
       context: ./auth-api
