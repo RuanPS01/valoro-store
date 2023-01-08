@@ -49,7 +49,7 @@ Para podermos testar tudo junto você vai precisar dos seguintes requisitos:
 1º - Clone este repositório que possui o arquivo para a execução;
 2º - Abra seu terminal ou prompt de comandos na pasta do projeto;
 3º - Digite o comando "docker-compose up" sem as aspas, e aperte Enter;
-4º - Abra o navegador no endereço http://127.0.0.1:5173/
+4º - Abra o navegador no endereço http://127.0.0.1:5173/ (ou http://localhost:5173/);
 ```
 Obs.: A execução do comando pode demorar um tempo consideravel, dependendo da conexão e a máquina em si em que você está usando.
 
