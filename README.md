@@ -49,17 +49,17 @@ Para podermos testar tudo junto você vai precisar dos seguintes requisitos:
 1º - Clone este repositório que possui o arquivo para a execução;
 2º - Abra seu terminal ou prompt de comandos na pasta do projeto;
 3º - Digite o comando "docker-compose up" sem as aspas, e aperte Enter;
-4º - Abra o navegador no endereço [http://127.0.0.1:5173/](http://127.0.0.1:5173/)
+4º - Abra o navegador no endereço [http://127.0.0.1:5173/](http://127.0.0.1:5173/);
 ```
 Obs.: A execução do comando pode demorar um tempo consideravel, dependendo da conexão e a máquina em si em que você está usando.
 
 ## Método individual por repositório
 Caso o Docker Compose não funcione, você pode optar por executar os projetos manualmente. Mas para isso temos os seguintes requisitos para sua máquina:
 
-     1º - Deve conter o Node instalado;
-     2º - Deve estar com o comando "npm" funcionando;
-     3º - Deve ter instalado o "yarn"
-     4º - Deve ter instalado o "vite"
+     1º - Deve conter o Node instalado (versão 16 ou mais recente);
+     2º - Deve estar com o comando "npm" funcionando corretamente;
+     3º - Deve ter instalado o "yarn";
+     4º - Deve ter instalado o "vite";
 
  
 As orientações individuais de cada projeto está em seus respectivos repositórios, e para facilitar vou deixar aqui os links novamente deles:
