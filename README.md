@@ -18,14 +18,14 @@ As implementações de cada divisão do projeto estão no seguintes repositório
 Cada api possui sua documentação em Swagger e uma Collection do Postman para o teste de todos os end-points. Segue a baixo, as orientações para o uso dessas documentações.
 
 ### Para o Swagger:
- As documentações em Swagger estarão disponíveis na rota **/api** de cada uma das apis que estiverem rodando. Sendo assim vc precisa no seu navegador entrar nos respectivos links para acessar as documentações:
+ As documentações em Swagger estarão disponíveis na rota **/api** de cada uma das apis que estiverem rodando. Sendo assim você precisa no seu navegador entrar nos respectivos links para acessar as documentações:
  
  - Para a api de authenticação: [http://localhost:3001/api](http://localhost:3001/api) 
  - Para a api de produtos: [http://localhost:3002/api](http://localhost:3002/api) 
 
 ### Para o Postman
-- Para utilizar os endpoints no postman é preciso que vc importe dois arquivos nele. Para uma melhor orientação vc pode consultar esse site para saber como importar: [Link do Tutorial](https://nfe.io/docs/documentacao/nota-fiscal-produto-eletronica/importar-colecao-postman/) Obs: A forma de importação é a mesma para os dois arquivos.
-- Vale lembrar que um arquivo é para as rotas estarem disponíveis no Postman, e o outro á a configuração das variaveis de ambiente, para que vc evite redigitar dados que podem ser dinâmicos. Aqui estão os arquivos:
+- Para utilizar os endpoints no postman é preciso que você importe dois arquivos nele. Para uma melhor orientação você pode consultar esse site para saber como importar: [Link do Tutorial](https://nfe.io/docs/documentacao/nota-fiscal-produto-eletronica/importar-colecao-postman/) Obs: A forma de importação é a mesma para os dois arquivos.
+- Vale lembrar que um arquivo é para as rotas estarem disponíveis no Postman, e o outro á a configuração das variaveis de ambiente, para que você evite redigitar dados que podem ser dinâmicos. Aqui estão os arquivos:
 	- https://github.com/RuanPS01/valoro-store/blob/main/ValoroStore.postman_environment.json
 	- https://github.com/RuanPS01/valoro-store/blob/main/ValoroStore.postman_collection.json
 	Obs.: Estes arquivos estão disponíveis neste próprio repositório.
