@@ -22,4 +22,4 @@ COPY . .
 
 EXPOSE 5173
 
-CMD ["vite"]
+CMD ["vite --host"]

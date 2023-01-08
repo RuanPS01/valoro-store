@@ -9,7 +9,7 @@ services:
     working_dir: /home/app/valoro-store-web
     ports:
       - 5173:5173
-    command: yarn dev
+    command: yarn dev --host
   auth-api:
     build: 
       context: ./auth-api
