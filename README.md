@@ -1,4 +1,5 @@
 
+
 ﻿![alt text](https://github.com/RuanPS01/valoro-store/blob/main/Red_LogoProject_ValoroStore.png?raw=true)
 # Bem vindo ao projeto Valoro Store!
 
@@ -8,6 +9,11 @@ As implementações de cada divisão do projeto estão no seguintes repositório
 - Front-end: https://github.com/RuanPS01/valoro-store-web.git
 - Auth API: https://github.com/RuanPS01/valoro-store-authentication-api.git
 - Products API: https://github.com/RuanPS01/valoro-store-products-api.git 
+
+### Front-end
+O visual da aplicação foi pensado e idealizado em cima de um *style-guide* e detalhado no ***Figma***. Segue abaixo o link e o IFrame do figma que foi feito para toda a idealização de UI/UX:
+[Link para a pagina do Figma](https://www.figma.com/file/kLw9KCJI8WzHRpRXZKttRs/Valoro-Store?node-id=0:1&t=c0bLNwIa13UijQGC-1)
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FkLw9KCJI8WzHRpRXZKttRs%2FValoro-Store%3Fnode-id%3D0%253A1%26t%3Dc0bLNwIa13UijQGC-1" allowfullscreen></iframe>
 
 
 ## Esquemático de comunicação entre os micro-serviços:
@@ -71,3 +77,4 @@ Explore a página e veja os recursos que foram implementados.
 Observação: Alguns recursos estavam no escopo do projeto como um todo, mas por delimitação de tempo, foram implementados os recursos principais.
 
 Obs: O banco de dados que foi o utilizado é o MongoBD, no caso hospedado no Mongo Atlas, ou seja, ele ja está lá populado e pronto para ser usado pela aplicação.
+
