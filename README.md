@@ -52,6 +52,7 @@ Caso o Docker Compose não funcione, você pode optar por executar os projetos m
      1º Deve conter o Node instalado;
      2º Deve estar com o comando "npm" funcionando;
      3º Deve ter instalado o "yarn"
+     4º Deve ter instalado o "vite"
 
  
 As orientações individuais de cada projeto está em seus respectivos repositórios, e para facilitar vou deixar aqui os links novamente deles:
