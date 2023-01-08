@@ -1,2 +1,50 @@
-# valoro-store
-Repo for run micro-services of Valoro Store
+﻿![alt text](https://github.com/RuanPS01/valoro-store/blob/main/Red_LogoProject_ValoroStore.png?raw=true)
+# Bem vindo ao projeto Valoro Store!
+
+O projeto, no qual se denomina loja de itens do Valorant, foi construído em formato de micro serviços. Como ainda se trata de um projeto menor, foram construídas os micro serviços para a authenticação e outro para gerenciamento dos produtos da loja. Logicamente a quantidade de micro serviços varia de acordo com a necessidade do projeto. Na prática são 3 projetos distintos: um para o front-end e outros dois para o back-end.
+As implementações de cada divisão do projeto estão no seguintes repositórios:
+
+- Front-end: https://github.com/RuanPS01/valoro-store-web.git
+- Auth API: https://github.com/RuanPS01/valoro-store-authentication-api.git
+- Products API: https://github.com/RuanPS01/valoro-store-products-api.git 
+
+
+## Esquemático de comunicação entre os micro-serviços:
+
+![alt text](https://github.com/RuanPS01/valoro-store/blob/main/valoro-diagram-micro-services.png?raw=true)
+### Sobre a documentação do back-end:
+ 
+Cada api possui sua documentação em Swagger e uma Collection do Postman para o teste de todos os end-points. Segue a baixo, as orientações para o uso dessas documentações.
+
+### Para o Swagger:
+ As documentações em Swagger estarão disponíveis na rota **/api** de cada uma das apis que estiverem rodando. Sendo assim vc precisa no seu navegador entrar nos respectivos links para acessar as documentações:
+ 
+ - Para a api de authenticação: [http://localhost:3001/api](http://localhost:3001/api) 
+ - Para a api de produtos: [http://localhost:3002/api](http://localhost:3002/api) 
+
+### Para o Postman
+- Para utilizar os endpoints no postman é preciso que vc importe dois arquivos nele. Para uma melhor orientação vc pode consultar esse site para saber como importar: [Link do Tutorial](https://nfe.io/docs/documentacao/nota-fiscal-produto-eletronica/importar-colecao-postman/) Obs: A forma de importação é a mesma para os dois arquivos.
+- Vale lembrar que um arquivo é para as rotas estarem disponíveis no Postman, e o outro á a configuração das variaveis de ambiente, para que vc evite redigitar dados que podem ser dinâmicos. Aqui estão os arquivos:
+	- https://github.com/RuanPS01/valoro-store/blob/main/ValoroStore.postman_environment.json
+	- https://github.com/RuanPS01/valoro-store/blob/main/ValoroStore.postman_collection.json
+	Obs.: Estes arquivos estão disponíveis neste próprio repositório.
+
+
+
+# Fazendo o projeto inteiro funcionar
+
+Para podermos testar tudo junto você vai precisar dos seguintes requisitos:
+- **Docker** instalado e disponível
+- Ter o **docker-compose** configurado na sua máquina
+
+### Passos para a execução
+1º -  **Clone** este repositório que possui o arquivo para a execução;
+2º -  **Abra seu terminal** ou prompt de comandos **na pasta do projeto**;
+3º -  Digite o comando "**docker-compose up**" sem as aspas, e aperte Enter;
+4º - Abra o navegador no endereço [http://127.0.0.1:5173/](http://127.0.0.1:5173/)
+
+
+## Prontinho!
+
+Explore a página e veja os recursos que foram implementados.
+Observação: Alguns recursos estavam no escopo do projeto como um todo, mas por delimitação de tempo, foram implementados os recursos principais.
