@@ -47,7 +47,7 @@ Para podermos testar tudo junto você vai precisar dos seguintes requisitos:
 3º - Digite o comando "docker-compose up" sem as aspas, e aperte Enter;
 4º - Abra o navegador no endereço [http://127.0.0.1:5173/](http://127.0.0.1:5173/)
 ```
-Obs.: A execução do comando pode demorar um tempo consideravel, dependendo da conexão e a máquina em si em que vc está usando.
+Obs.: A execução do comando pode demorar um tempo consideravel, dependendo da conexão e a máquina em si em que você está usando.
 
 ## Método individual por repositório
 Caso o Docker Compose não funcione, você pode optar por executar os projetos manualmente. Mas para isso temos os seguintes requisitos para sua máquina:
