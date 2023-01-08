@@ -1,0 +1,23 @@
+FROM ubuntu
+RUN apt-get update && apt-get upgrade -y
+RUN apt-get install -y nodejs
+RUN apt-get -y install git
+RUN apt-get -y install npm
+RUN npm install --global yarn
+
+WORKDIR /usr/src/app
+
+RUN git clone https://github.com/RuanPS01/valoro-store-web.git
+RUN cd valoro-store-web
+
+WORKDIR /usr/src/app/valoro-store-web
+
+COPY package*.json yarn.lock ./
+
+RUN [ "/bin/bash", "-c", "yarn install --pure-lockfile 2> >(grep -v warning 1>&2) && mv node_modules ../"]
+
+ENV PATH /usr/node_modules/.bin:$PATH
+
+COPY . .
+
+EXPOSE 5173

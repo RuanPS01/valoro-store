@@ -1,0 +1,26 @@
+version: '3'
+services:
+  web:
+    build: 
+      context: ./web
+      dockerfile: dockerfile
+    tty: true
+    stdin_open: true
+    working_dir: /usr/src/app
+    ports:
+      - 5173:5173
+    command: yarn vite
+  auth-api:
+    build: 
+      context: ./auth-api
+      dockerfile: dockerfile
+    command: npm run start:dev
+    ports:
+      - 3001:3001
+  product-api:
+    build: 
+      context: ./product-api
+      dockerfile: dockerfile
+    command: npm run start:dev
+    ports:
+      - 3002:3002

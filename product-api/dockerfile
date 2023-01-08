@@ -1,0 +1,18 @@
+FROM ubuntu
+RUN apt-get update && apt-get upgrade -y
+RUN apt-get install -y nodejs
+RUN apt-get -y install git
+RUN apt-get -y install npm
+
+WORKDIR /home/app/
+
+RUN git clone https://github.com/RuanPS01/valoro-store-products-api.git
+RUN cd valoro-store-products-api
+
+WORKDIR /home/app/valoro-store-products-api
+
+RUN npm install
+COPY . .
+
+EXPOSE 3001
+CMD ["NODE_ENV=dev", "nest", "start"]
