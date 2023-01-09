@@ -13,8 +13,12 @@ As implementações de cada divisão do projeto estão no seguintes repositório
 
 ### Front-end
 O visual da aplicação foi pensado e idealizado em cima de um *style-guide* criado exclusivamente para a aplicação em questão através do ***Figma***. Segue abaixo o link do figma que foi feito para toda a idealização de UI/UX:
+
 [Link dos protótipos de página no Figma](https://www.figma.com/file/kLw9KCJI8WzHRpRXZKttRs/Valoro-Store?node-id=0:1&t=c0bLNwIa13UijQGC-1)
+
 [Link do style-guide no Figma](https://www.figma.com/file/kLw9KCJI8WzHRpRXZKttRs/Valoro-Store?node-id=1%3A3&t=nFQMwTf5x5eGH2X5-1)
+
+
 ## Esquemático de comunicação entre os micro-serviços:
 
 ![alt text](https://github.com/RuanPS01/valoro-store/blob/main/valoro-diagram-micro-services.png?raw=true)
