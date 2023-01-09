@@ -4,7 +4,7 @@
 ﻿![alt text](https://github.com/RuanPS01/valoro-store/blob/main/Red_LogoProject_ValoroStore.png?raw=true)
 # Bem vindo ao projeto Valoro Store!
 
-O projeto, no qual se denomina loja de itens do Valorant, foi construído em formato de micro serviços. Como ainda se trata de um projeto menor, foram construídas os micro serviços para a authenticação e outro para gerenciamento dos produtos da loja. Logicamente a quantidade de micro serviços varia de acordo com a necessidade do projeto. Na prática são 3 projetos distintos: um para o front-end e outros dois para o back-end.
+O projeto, no qual se denomina loja de itens do Valorant, foi construído em formato de micro serviços. Como ainda se trata de um projeto menor, foram construídos os micro serviços para a authenticação e outro para o gerenciamento dos produtos da loja. Logicamente a quantidade de micro serviços varia de acordo com a necessidade do projeto. Na prática são 3 projetos distintos: um para o front-end e outros dois para o back-end.
 As implementações de cada divisão do projeto estão no seguintes repositórios:
 
 - Front-end: https://github.com/RuanPS01/valoro-store-web.git
@@ -13,7 +13,8 @@ As implementações de cada divisão do projeto estão no seguintes repositório
 
 ### Front-end
 O visual da aplicação foi pensado e idealizado em cima de um *style-guide* criado exclusivamente para a aplicação em questão através do ***Figma***. Segue abaixo o link do figma que foi feito para toda a idealização de UI/UX:
-[Link para a pagina do Figma](https://www.figma.com/file/kLw9KCJI8WzHRpRXZKttRs/Valoro-Store?node-id=0:1&t=c0bLNwIa13UijQGC-1)
+[Link dos protótipos de página no Figma](https://www.figma.com/file/kLw9KCJI8WzHRpRXZKttRs/Valoro-Store?node-id=0:1&t=c0bLNwIa13UijQGC-1)
+[Link do style-guide no Figma](https://www.figma.com/file/kLw9KCJI8WzHRpRXZKttRs/Valoro-Store?node-id=1%3A3&t=nFQMwTf5x5eGH2X5-1)
 ## Esquemático de comunicação entre os micro-serviços:
 
 ![alt text](https://github.com/RuanPS01/valoro-store/blob/main/valoro-diagram-micro-services.png?raw=true)
@@ -74,7 +75,7 @@ Agora é só entrar nesse link http://localhost:5173 e usar.
 Explore a página e veja os recursos que foram implementados.
 Observação: Alguns recursos estavam no escopo do projeto como um todo, mas por delimitação de tempo, foram implementados os recursos principais.
 
-Obs: O banco de dados que foi o utilizado é o MongoBD, no caso hospedado no Mongo Atlas, ou seja, ele ja está lá populado e pronto para ser usado pela aplicação.
+Obs: O banco de dados que foi o utilizado é o MongoBD, no caso sendo hospedado no Mongo Atlas, ou seja, ele ja está lá populado e pronto para ser usado pela aplicação.
 
 
 ___
